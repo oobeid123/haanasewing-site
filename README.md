@@ -62,14 +62,19 @@ relative path, then assert `base64,` no longer appears.
    the 3900 ms start delay is hand-matched to the intro curtain with nothing
    enforcing the pairing.
 
-## Still open before this is really "done"
+## Launch gates
 
-- **Photo rights.** It is still unknown which of the ten photos and four clips
-  Haana shot herself and which came from a wedding photographer. Photographers
-  own their images by default.
-- **Prices are market benchmarks, not Haana's numbers.** Every figure in the
-  services section is a stand-in.
-- **No city.** The page says only "Florida", and the FAQ's "Where are you"
-  answer is still an italic placeholder. Local search does not work without one.
-- **FAQ still carries time claims** ("three months", "two to three fittings")
-  that were deliberately stripped from How It Works.
+- ✅ **Photo rights — cleared 2026-08-26.** All ten portfolio photos and the four
+  hero clips are cleared for use.
+- ✅ **Service area — Tampa, Florida, set 2026-08-26.** In the hero eyebrow, the
+  three meta descriptions, the footer, the social card, the FAQ, and — the part
+  that actually matters for local search — the JSON-LD, as a `PostalAddress`
+  with `addressLocality: Tampa` / `addressRegion: FL` plus `areaServed` of
+  Tampa and Tampa Bay Area. No street address or geo coordinates: still unknown,
+  deliberately not guessed at.
+- ❌ **Prices — still open, and publicly quoted right now.** Every figure in the
+  services section is a market benchmark standing in for Haana's real numbers.
+- ⚠️ **Does she travel to a bride?** Unanswered, so the FAQ question was narrowed
+  to "Where are you based?" and commits only to Tampa and by-appointment
+  fittings. Don't invent a travel policy — it's in the build note as an open
+  question.
